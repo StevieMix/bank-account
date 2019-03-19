@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Bank Account</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bienvenido Banco de Laundry!</h1>
+      <a href="../html-link.htm"><img src="https://cdn.britannica.com/62/192062-131-96B933EF.jpg" alt="pablo escobar"></a>
+
+      <h2>Registre una nueva cuenta:</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="new-contact">
+            <div class="form-group">
+              <label for="name">nombre</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="form-group">
+              <label for="name">depósito inicial</label>
+              <input type="number" class="form-control" id="firstDeposit">
+              <button type="submit" class="createNewAccount">crear una cuenta</button>
+            </div>
+            </div>
+           </div>
+
+
+                <h3>Depositar o retirar:</h3>
+                <div class="row">
+                  <div class="col-md-6">
+                    <form id="deposit">
+                      <div class="form-group">
+                        <label for="name">Cantidad del depósito</label>
+                        <input type="number" class="form-control" id="deposit">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form id="withdraw">
+                      <div class="form-group">
+                        <label for="name">Cantidad a retirar</label>
+                        <input type="number" class="form-control" id="withdrawal">
+                        <button type="submit" class="addSubtractFunds">enviar</button>
+                  </div>
+               </div>
+        </div>
+        </div>
+
+  </body>
+</html>
